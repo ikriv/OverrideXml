@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideXmlSample", "OverrideXmlSample.csproj", "{51081393-7098-4677-BA8C-B8CE463F974B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51081393-7098-4677-BA8C-B8CE463F974B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51081393-7098-4677-BA8C-B8CE463F974B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51081393-7098-4677-BA8C-B8CE463F974B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51081393-7098-4677-BA8C-B8CE463F974B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

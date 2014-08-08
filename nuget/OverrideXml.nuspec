@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>OverrideXml</id>
+    <version>1.0</version>
+    <title>OverrideXml: dynamically change XML serialization attributes in code</title>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <authors>Ivan Krivyakov</authors>
+    <owners>Ivan Krivyakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Easy interface for changing behavior of XmlSerializer without changing the classes being serialized</description>
+    <tags>.NET XML XmlSerializer XmlAttributeOverrides</tags>
+    <copyright>Copyright (c) Ivan Krivyakov, http://www.ikriv.com</copyright>
+    <releaseNotes>First release</releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\src\OverrideXml.cs" target="content" />
+  </files>
+</package> 
+
