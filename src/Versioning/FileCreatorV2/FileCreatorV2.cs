@@ -16,7 +16,7 @@ namespace FileCreator
     public class Organization
     {
         [XmlAttribute] public string Name { get; set;}
-        [XmlAttribute] public string Headquarters { get; set;}
+        [XmlAttribute] public string Location { get; set;} // was Headquarters
     }
 
     [XmlRoot(Namespace=Names.XmlNamespace)]
@@ -36,7 +36,7 @@ namespace FileCreator
                         .Member("Organizations").XmlElement("Organization")
                     .Override<Organization>()
                         .Member("Name").XmlElement()
-                        .Member("Headquarters").XmlElement()
+                        .Member("Location").XmlElement("Headquarters")
                     .Commit();
         }
 
@@ -49,8 +49,8 @@ namespace FileCreator
                     CreationTime = DateTime.UtcNow, 
                     Organizations = new List<Organization>
                     {
-                        new Organization { Name = "United Nations", Headquarters = "New York" },
-                        new Organization { Name = "FIFA", Headquarters = "Zurich" }
+                        new Organization { Name = "United Nations", Location = "New York" },
+                        new Organization { Name = "FIFA", Location = "Zurich" }
                     }
                 };
             }
