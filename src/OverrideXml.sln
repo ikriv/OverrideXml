@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreator", "Versioning\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreatorV2", "Versioning\FileCreatorV2\FileCreatorV2.csproj", "{12CA0D59-8925-4BFF-99FC-D8C6D9A3036B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartySample", "ThirdPartySample\ThirdPartySample.csproj", "{18E90772-5474-47BE-9238-5EEA08FB9515}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{12CA0D59-8925-4BFF-99FC-D8C6D9A3036B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CA0D59-8925-4BFF-99FC-D8C6D9A3036B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CA0D59-8925-4BFF-99FC-D8C6D9A3036B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E90772-5474-47BE-9238-5EEA08FB9515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E90772-5474-47BE-9238-5EEA08FB9515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E90772-5474-47BE-9238-5EEA08FB9515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E90772-5474-47BE-9238-5EEA08FB9515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
